@@ -6,6 +6,7 @@ end
 
 local c = {
   black = '#141415',
+  shadow = "#1c1c24",
   graphite = '#252530',
   onyx = '#333738',
   muted = '#606079',
@@ -155,7 +156,7 @@ hl('PmenuThumb', { bg = c.muted })
 hl('PreCondit', { fg = c.muted })
 hl('PreProc', { fg = c.cyan })
 hl('Question', { fg = c.cyan })
-hl('QuickFixLine', { bg = c.graphite })
+hl('QuickFixLine', { bg = c.shadow })
 hl('Removed', { fg = c.red })
 hl('Repeat', { fg = c.blue })
 hl('Search', { fg = c.white, bg = c.storm })
@@ -169,9 +170,9 @@ hl('SpellCap', { undercurl = true })
 hl('SpellLocal', { undercurl = true })
 hl('SpellRare', { undercurl = true })
 hl('Statement', { fg = c.blue })
-hl('StatusLine', { fg = c.white, bg = c.black })
+hl('StatusLine', { fg = c.white, bg = c.shadow })
 hl('StatusLineNC', { fg = c.muted })
-hl('StatusLineTerm', { fg = c.white, bg = c.black })
+hl('StatusLineTerm', { fg = c.white, bg = c.shadow })
 hl('StatusLineTermNC', { fg = c.muted })
 hl('StorageClass', { fg = c.cyan })
 hl('String', { fg = c.amber })
@@ -193,7 +194,7 @@ hl('VisualNOS', { bg = c.muted, undercurl = true })
 hl('WarningMsg', { fg = c.yellow })
 hl('Whitespace', { fg = c.graphite })
 hl('WildMenu', { fg = c.black, bg = c.peach })
-hl('WinBar', { fg = c.white, bg = c.graphite })
+hl('WinBar', { fg = c.white, bg = c.shadow })
 hl('WinBarNC', { fg = c.muted })
 hl('WinSeparator', { fg = c.gray })
 hl('debugBreakpoint', { fg = c.black, bg = c.lavender })
